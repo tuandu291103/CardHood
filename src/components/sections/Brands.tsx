@@ -1,7 +1,7 @@
 import { Container } from "../shared/Container";
 import { Title } from "../shared/Title";
 
-// Explicit imports
+// explicit imports 
 import pokemon from "../../assets/logos/pokemon.png";
 import onepiece from "../../assets/logos/onepiece.png";
 import wixoss from "../../assets/logos/wixoss.png";
@@ -9,7 +9,7 @@ import yugioh from "../../assets/logos/yugioh.png";
 import dragonball from "../../assets/logos/dragonball.png";
 import magic from "../../assets/logos/magic.png";
 
-
+// Array of logos with their names and images
 const logos = [
   { name: "pokemon", image: pokemon },
   { name: "onepiece", image: onepiece },
@@ -19,6 +19,7 @@ const logos = [
   { name: "magic", image: magic },
 ];
 
+// Brands component
 export const Brands = () => {
   return (
     <section>
