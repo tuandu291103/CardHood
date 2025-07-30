@@ -1,58 +1,12 @@
-# CardHood
+# 💳 Cardhood — React + TypeScript + Vite + Tailwind
 =======
-# React + TypeScript + Vite
+Cardhood is a modern, responsive web app built using React, TypeScript, Tailwind CSS, and Vite. The project is designed with a clean component structure and supports scalable styling, theming, and layout for building landing pages or product sites.
 
-Repository: tuandu291103/cardhood
-Files analyzed: 36
+For Directory Structure: [View this Doc](https://docs.google.com/document/d/1jr7i1z8sZO8nDaINQhepLBaXTbJtkhS_53ftRj97jfY/edit?usp=sharing)
 
-Estimated tokens: 10.7k
 
-Directory structure:
-└── tuandu291103-cardhood/
-    ├── README.md
-    ├── dockerfile
-    ├── eslint.config.js
-    ├── index.html
-    ├── package.json
-    ├── tailwind.config.js
-    ├── tsconfig.app.json
-    ├── tsconfig.json
-    ├── tsconfig.node.json
-    ├── vite.config.ts
-    ├── .dockerignore
-    ├── public/
-    └── src/
-        ├── App.tsx
-        ├── index.css
-        ├── main.tsx
-        ├── vite-env.d.ts
-        ├── assets/
-        │   └── logos/
-        ├── components/
-        │   ├── Layout.tsx
-        │   ├── cards/
-        │   │   ├── Info.tsx
-        │   │   └── Service.tsx
-        │   ├── elements/
-        │   │   ├── Footer.tsx
-        │   │   └── Navbar.tsx
-        │   ├── sections/
-        │   │   ├── AboutUs.tsx
-        │   │   ├── Brands.tsx
-        │   │   ├── CallToAction.tsx
-        │   │   ├── Hero.tsx
-        │   │   ├── Numbers.tsx
-        │   │   ├── Pricing.tsx
-        │   │   └── Services.tsx
-        │   └── shared/
-        │       ├── BtnLink.tsx
-        │       ├── Button.tsx
-        │       ├── Container.tsx
-        │       ├── NavItem.tsx
-        │       ├── Paragraph.tsx
-        │       └── Title.tsx
-        ├── store/
-        │   └── ThemeStore.ts
-        └── utils/
-            ├── pricing-plan.ts
-            └── services-data.tsx
+⚛️ React
+🟦 TypeScript
+⚡ Vite
+💨 Tailwind CSS
+🧩 Modular component design
