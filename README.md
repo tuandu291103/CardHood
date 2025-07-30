@@ -1,73 +1,58 @@
-<<<<<<< HEAD
 # CardHood
 =======
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Repository: tuandu291103/cardhood
+Files analyzed: 36
 
-Currently, two official plugins are available:
+Estimated tokens: 10.7k
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
->>>>>>> af8b87a (initial commit)
+Directory structure:
+└── tuandu291103-cardhood/
+    ├── README.md
+    ├── dockerfile
+    ├── eslint.config.js
+    ├── index.html
+    ├── package.json
+    ├── tailwind.config.js
+    ├── tsconfig.app.json
+    ├── tsconfig.json
+    ├── tsconfig.node.json
+    ├── vite.config.ts
+    ├── .dockerignore
+    ├── public/
+    └── src/
+        ├── App.tsx
+        ├── index.css
+        ├── main.tsx
+        ├── vite-env.d.ts
+        ├── assets/
+        │   └── logos/
+        ├── components/
+        │   ├── Layout.tsx
+        │   ├── cards/
+        │   │   ├── Info.tsx
+        │   │   └── Service.tsx
+        │   ├── elements/
+        │   │   ├── Footer.tsx
+        │   │   └── Navbar.tsx
+        │   ├── sections/
+        │   │   ├── AboutUs.tsx
+        │   │   ├── Brands.tsx
+        │   │   ├── CallToAction.tsx
+        │   │   ├── Hero.tsx
+        │   │   ├── Numbers.tsx
+        │   │   ├── Pricing.tsx
+        │   │   └── Services.tsx
+        │   └── shared/
+        │       ├── BtnLink.tsx
+        │       ├── Button.tsx
+        │       ├── Container.tsx
+        │       ├── NavItem.tsx
+        │       ├── Paragraph.tsx
+        │       └── Title.tsx
+        ├── store/
+        │   └── ThemeStore.ts
+        └── utils/
+            ├── pricing-plan.ts
+            └── services-data.tsx
